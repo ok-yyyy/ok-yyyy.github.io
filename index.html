@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ok-yyyy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #f6f8fa;
+            --card-bg: #ffffff;
+            --text-main: #24292f;
+            --text-sub: #57606a;
+            --accent-color: #0969da; /* GitHub Blue */
+            --border-color: #d0d7de;
+            --hover-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 1px solid var(--border-color);
+            background-color: #fff;
+            padding: 4px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            margin: 0 0 8px 0;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 0.95rem;
+            color: var(--text-sub);
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .link-card {
+            display: flex;
+            align-items: center;
+            padding: 14px 24px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--text-main);
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 500;
+        }
+
+        .link-card:hover {
+            border-color: var(--accent-color);
+            box-shadow: var(--hover-shadow);
+            transform: translateY(-2px);
+            color: var(--accent-color);
+        }
+
+        .link-card i {
+            font-size: 1.25rem;
+            width: 32px;
+            margin-right: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://github.com/ok-yyyy.png" alt="Profile" class="profile-img">
+    
+    <h1>yyyy / omoidenoohitasi</h1>
+    <p>Full Stack Developer / Infrastructure Engineer</p>
+
+    <div class="links">
+        <a href="https://github.com/ok-yyyy" class="link-card" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://twitter.com/omoidenoohitasi" class="link-card" target="_blank">
+            <i class="fab fa-x-twitter"></i> Twitter (X)
+        </a>
+        <a href="#" class="link-card">
+            <i class="fas fa-circle-user"></i> Portal
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
