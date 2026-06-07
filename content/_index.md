@@ -11,4 +11,5 @@ toc: false
 
 {{< cards cols="3" >}}
   {{< card link="about" title="About" icon="user" >}}
+  {{< card link="tech/" title="Tech" icon="book-open" >}}
 {{< /cards >}}
