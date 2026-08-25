@@ -8,4 +8,5 @@ cascade:
 
 {{< cards >}}
   {{< card link="aws" title="AWS" icon="aws" >}}
+  {{< card link="discord" title="Discord" icon="discord" >}}
 {{< /cards >}}
